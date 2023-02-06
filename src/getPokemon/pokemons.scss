@@ -1,0 +1,23 @@
+.pokemon-container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-card {
+  border: 3px solid black;
+  padding: 1rem;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pokemon-card:hover {
+  .pokemon-img {
+    background-color: yellow;
+  }
+}
